@@ -1,0 +1,125 @@
+.hd-row{
+    font-size: 13px;
+}
+.nav-link:hover{
+    color: #7fad39;
+}
+.catogary{
+    background-color: #7fad39;
+}
+select{
+    background-color: #7fad39;
+    border: none;
+    color: #fff;
+    padding: 0.7rem 0;
+    transition: 3s;
+}
+select option{
+    background-color: #fff;
+    color: #000;  
+}
+/* BANNER */
+.banner-dtls{
+    top: 25%;
+    left: 7%;
+}
+/* CATOGARYS */
+.img-btn{
+    right: 18%;
+    top: 83%;   
+    left: 15%;
+}
+
+/* FEATURE PRODUCTS */
+.fp-section{
+    margin-top: 5rem;
+}
+.fp-title{
+    position: relative;
+}
+.fp-title::before{
+    position: absolute;
+    content: "";
+    width: 10%;
+    height: 4px;
+    background-color: #7fad39;
+    top: 115%;
+    left: 45%;
+}
+.fp-section ul li a{
+    position: relative;
+    font-size: 1.2rem;
+    background-color: gainsboro;
+    padding: 0.1rem 1rem;
+    border-radius: 0.3rem;
+}
+.fp-section ul li a::before{
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #7fad39;
+    top: 100%;
+    left: 0%;
+}
+.fp-section ul li a:hover::before{
+    width: 100%;
+    transition: 0.5s;
+}
+
+/* PRODUCTS SECTION */
+.img-dtls{
+    overflow: hidden;
+    cursor: pointer;
+}
+.img-dtls .position-absolute{
+    top: 130%;
+    left: 30%; 
+}
+.img-dtls:hover .position-absolute{
+    top: 80%;
+    transition: 1s;
+}
+
+/* PACKAGES SECTION */
+.s-show{
+    overflow: hidden;
+}
+.s-show button{
+    border: none;
+    background: none;
+}
+.package-dtls{
+    margin: 10px 0;
+}
+
+/* Blogs Section */
+.blog-dtls{
+    text-align: justify;
+}
+.footer-links ul{
+    list-style: none;   
+}
+.footer-links ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* RESPONSIVE BLOCK */
+@media(max-width:576px){
+    .hd-row{
+        font-size: 11px;
+    }
+    .position-relative img{
+        height: 20rem;
+    }
+    .img-dtls .position-absolute{
+        left: 38%; 
+    }
+    .fp-section ul li a{
+        font-size: 0.1rem;
+        padding: 0.1rem 0.4rem;
+    }
+    
+}

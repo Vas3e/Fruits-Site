@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <div class="container-fluid bg-light">
+        <div class="container">
+            <div class="row row-cols-lg-2  py-2 hd-row">
+                <div class="col-12 d-flex justify-content-center justify-content-lg-start">
+                    <a class="text-decoration-none text-dark" href="mailto:vasanthsankar50@gmail.com"><i class="fa fa-envelope pe-2" aria-hidden="true"></i>vasanthsankar50@gmail.com</a><span class="px-3">|</span>
+                    <a href="#" class="text-decoration-none text-dark">Free Shipping for all Order of $99</a>
+                </div>
+                <div class="col-12 d-flex justify-content-center justify-content-lg-end gap-4">
+                    <div class="social-media">
+                        <a href=""><i class="fa-brands fa-facebook-f pe-3" style="color: #000000;"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter pe-3" style="color: #000000;"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin-in pe-3" style="color: #000000;"></i></a>
+                        <a href=""><i class="fa-brands fa-pinterest-p" style="color: #000000;"></i></a>
+                    </div>
+                    <span>|</span>
+                    <div class="languages">
+                        <li class="list-unstyled dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"><img src="img/img/language.png" alt=""></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Leo</a></li>
+                                <li><a class="dropdown-item" href="#">Master</a></li>
+                                <li><a class="dropdown-item" href="#">GOAT</a></li>
+                            </ul>
+                        </li>
+                    </div>
+                    <span>|</span>
+                    <div class="login-btn">
+                        <i class="fa-solid fa-user" style="color: #000000;"></i>
+                        <a>Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </header>
+  <div class="container">
+    <nav class="navbar navbar-expand-sm">
+        <a href="" class="navbar-brand"><img src="img/img/logo.png" alt="image"></a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#bar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="bar">
+            <ul class="navbar-nav m-auto gap-sm-3 gap-md-4 gap-lg-5 fw-bold">
+                <li class="nav-item"><a class="nav-link active" style="color: #7fad39;" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Pages</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+            <div class="d-flex align-items-center gap-3">
+                <div>
+                    <i class="fa fa-heart" aria-hidden="true"><sup style="font-size: 10px;" class="bg-success text-light p-1 rounded-circle">1</sup></i>
+                    <i class="fa fa-shopping-bag" aria-hidden="true"><sup style="font-size: 10px;" class="bg-success text-light p-1 rounded-circle">4</sup></i>
+                </div>
+                <div class="d-flex gap-2 d-none d-lg-block" >
+                    <p>item:</p>
+                    <h6>$150.00</h6>
+                </div> 
+            </div>
+        </div>
+      </nav>
+      <div class="row mt-4 gap-4 gap-sm-0">
+        <div class="col-12 col-sm-6 col-lg-3">
+            <!-- <li class="dropdown list-unstyled px-5 py-2 catogary"><a href="" class="dropdown-toggle text-decoration-none text-light" data-bs-toggle="dropdown">All Departments</a>
+                <ul class="dropdown-menu">
+                    <li><a href="" class="dropdown-item px-5">Fresh Meat</a></li>
+                </ul>
+            </li> -->
+                <select class="px-5 fw-bold w-100 w-sm-85" name="" id="">
+                    <option value="">All Departments</option>
+                    <option value="">Vegitables</option>
+                    <option value="">All Fruits</option>
+                    <option value="">Nuts and Drys</option>
+                    <option value="">Vegitables</option>
+                    <option value="">All Fruits</option>
+                    <option value="">Nuts and Drys</option>
+                    <option value="">Vegitables</option>
+                    <option value="">All Fruits</option>
+                    <option value="">Nuts and Drys</option>
+                    <option value="">Vegitables</option>
+                    <option value="">All Fruits</option>
+                    <option value="">Nuts and Drys</option>
+                    <option value="">Vegitables</option>
+                    <option value="">All Fruits</option>
+                    <option value="">Nuts and Drys</option>
+                    <option value="">Nuts and Drys</option>
+                    <option value="">Vegitables</option>
+                    <option value="">All Fruits</option>
+                    <option value="">Nuts and Drys</option>
+                </select>
+            
+        </div>
+        <div class="col-12 col-sm-6 col-lg-6 d-flex align-items-start">
+            <input class="w-100 py-2 border" type="search" placeholder="What do you need?"> 
+            <button class="px-3" style="background-color: #7fad39; color: #fff;border: 0; padding: 0.6rem;" >Submit</button>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 d-none d-lg-block">
+            <div class="cnt-dtls d-flex justify-content-center">
+                <div class="pe-4"><i class="fa fa-phone p-3 bg-light rounded-circle" style="color: #7fad39;" aria-hidden="true"></i></div>
+                <div class="text-center">
+                    <h5>+91 9750404276</h5>
+                    <p>support 24/7</p>
+                </div>
+            </div>
+           
+        </div>
+      </div>
+  </div>
+
+  <section class="banner">
+    <div class=" container d-flex justify-content-end">
+        <div class="position-relative">
+            <div class="banner-dtls position-absolute">
+                <h6 style="color: #7fad39;">FRUIT FRESH</h6>
+                <h1 class="fw-bold">Vegitable</h1>
+                <h1 class="fw-bold">100% Organic</h1>
+                <p style="color: gray;">Free pickup and delivery available</p>
+                <div>
+                    <button style="background-color: #7fad39;" class="btn text-light">Shop Now</button>
+                </div>
+            </div>
+            <img class="img-fluid" src="img/img/hero/banner.jpg" alt="image">
+        </div>
+    </div>
+  </section>
+
+  <section class="cat-section mt-5">
+    <div class="container-fluid">
+        <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-5 px-5 g-4">
+            <div class="col-12">
+                <div class="position-relative">
+                    <img class="img-fluid" src="img/img/product/discount/pd-1.jpg" alt="image">
+                    <button style="background-color: #fff;" class="btn fw-bold position-absolute img-btn">DRY FRUIT</button>
+                </div> 
+            </div>
+            <div class="col-12">
+                <div class="position-relative">
+                    <img class="img-fluid" src="img/img/product/discount/pd-2.jpg" alt="image">
+                    <button style="background-color: #fff;" class="btn fw-bold position-absolute img-btn">VEGIES</button>
+                </div> 
+            </div>
+            <div class="col-12">
+                <div class="position-relative">
+                    <img class="img-fluid" src="img/img/product/discount/pd-3.jpg" alt="image">
+                    <button style="background-color: #fff;" class="btn fw-bold position-absolute img-btn">JUICES</button>
+                </div> 
+            </div>
+            <div class="col-12">
+                <div class="position-relative">
+                    <img class="img-fluid" src="img/img/product/discount/pd-4.jpg" alt="image">
+                    <button style="background-color: #fff;" class="btn fw-bold position-absolute img-btn">FRESH FRUITS</button>
+                </div> 
+            </div>
+            <div class="col-12">
+                <div class="position-relative">
+                    <img class="img-fluid" src="img/img/product/discount/pd-5.jpg" alt="image">
+                    <button style="background-color: #fff;" class="btn fw-bold position-absolute img-btn">SNACKS</button>
+                </div> 
+            </div>
+        </div> 
+    </div>  
+  </section>
+
+  <section class="fp-section">
+    <h1 class="text-center fp-title">FEATURE PRODUCTS</h1>
+    <ul class="d-flex gap-2 gap-sm-4 justify-content-center mt-5">
+        <li class="list-unstyled"><a class="text-decoration-none text-dark fp-title fs-6" href="#">All</a></li>
+        <li class="list-unstyled"><a class="text-decoration-none text-dark fp-title fs-6" href="#">Fruits</a></li>
+        <li class="list-unstyled"><a class="text-decoration-none text-dark fp-title fs-6" href="#">Fresh Meats</a></li>
+        <li class="list-unstyled"><a class="text-decoration-none text-dark fp-title fs-6" href="#">Vegitables</a></li>
+        <li class="list-unstyled"><a class="text-decoration-none text-dark fp-title fs-6" href="#">Fastfoods</a></li>
+    </ul>
+  </section>
+
+  <section class="products mt-5">
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-5">
+            <div class="col">
+                <div class="products-dtls text-center">
+                    <div class="img-dtls position-relative">
+                        <img class="img-fluid" src="img/img/product/product-1.jpg" alt="image">
+                        <div class="icons position-absolute">
+                            <i class="fa fa-heart p-2 rounded-circle" style="background-color: #fff;" aria-hidden="true"></i>
+                            <i class="fa fa-repeat p-2 rounded-circle" style="background-color: #fff;" aria-hidden="true"></i>
+                            <i class="fa-solid fa-cart-shopping p-2 rounded-circle" style="background-color: #fff;"></i>
+                        </div>
+                    </div>
+                    <p class="m-0">Crap Pool Meat</p>
+                    <h5 class="fw-bold">$30.00</h5>
+                </div>
+            </div>
+            <div class="col">
+                <div class="products-dtls text-center">
+                    <div class="img-dtls position-relative">
+                        <img class="img-fluid" src="img/img/product/product-2.jpg" alt="image">
+                        <div class="icons position-absolute">
+                            <i class="fa fa-heart p-2 rounded-circle" style="background-color: #fff;" aria-hidden="true"></i>
+                            <i class="fa fa-repeat p-2 rounded-circle" style="background-color: #fff;" aria-hidden="true"></i>
+                            <i class="fa-solid fa-cart-shopping p-2 rounded-circle" style="background-color: #fff;"></i>
+                        </div>
+                    </div>
+                    <p class="m-0">Crap Pool Meat</p>
+                    <h5 class="fw-bold">$30.00</h5>
+                </div>
+            </div>
+            <div class="col">
+                <div class="products-dtls text-center">
+                    <div class="img-dtls position-relative">
+                        <img class="img-fluid" src="img/img/product/product-3.jpg" alt="image">
+                        <div class="icons position-absolute">
+                            <i class="fa fa-heart p-2 rounded-circle" style="background-color: #fff;" aria-hidden="true"></i>
+                            <i class="fa fa-repeat p-2 rounded-circle" style="background-color: #fff;" aria-hidden="true"></i>
+                            <i class="fa-solid fa-cart-shopping p-2 rounded-circle" style="background-color: #fff;"></i>
+                        </div>
+                    </div>
+                    <p class="m-0">Crap Pool Meat</p>
+                    <h5 class="fw-bold">$30.00</h5>
+                </div>
+            </div>
+            <div class="col">
+                <div class="products-dtls text-center">
+                    <div class="img-dtls position-relative">
+                        <img class="img-fluid" src="img/img/product/product-4.jpg" alt="image">
+                        <div class="icons position-absolute">
+                            <i class="fa fa-heart p-2 rounded-circle" style="background-color: #fff;" aria-hidden="true"></i>
+                            <i class="fa fa-repeat p-2 rounded-circle" style="background-color: #fff;" aria-hidden="true"></i>
+                            <i class="fa-solid fa-cart-shopping p-2 rounded-circle" style="background-color: #fff;"></i>
+                        </div>
+                    </div>
+                    <p class="m-0">Crap Pool Meat</p>
+                    <h5 class="fw-bold">$30.00</h5>
+                </div>
+            </div>
+            <div class="col">
+                <div class="products-dtls text-center">
+                    <div class="img-dtls position-relative">
+                        <img class="img-fluid" src="img/img/product/product-5.jpg" alt="image">
+                        <div class="icons position-absolute">
+                            <i class="fa fa-heart p-2 rounded-circle" style="background-color: #fff;" aria-hidden="true"></i>
+                            <i class="fa fa-repeat p-2 rounded-circle" style="background-color: #fff;" aria-hidden="true"></i>
+                            <i class="fa-solid fa-cart-shopping p-2 rounded-circle" style="background-color: #fff;"></i>
+                        </div>
+                    </div>
+                    <p class="m-0">Crap Pool Meat</p>
+                    <h5 class="fw-bold">$30.00</h5>
+                </div>
+            </div>
+            <div class="col">
+                <div class="products-dtls text-center">
+                    <div class="img-dtls position-relative">
+                        <img class="img-fluid" src="img/img/product/product-7.jpg" alt="image">
+                        <div class="icons position-absolute">
+                            <i class="fa fa-heart p-2 rounded-circle" style="background-color: #fff;" aria-hidden="true"></i>
+                            <i class="fa fa-repeat p-2 rounded-circle" style="background-color: #fff;" aria-hidden="true"></i>
+                            <i class="fa-solid fa-cart-shopping p-2 rounded-circle" style="background-color: #fff;"></i>
+                        </div>
+                    </div>
+                    <p class="m-0">Crap Pool Meat</p>
+                    <h5 class="fw-bold">$30.00</h5>
+                </div>
+            </div>
+            <div class="col">
+                <div class="products-dtls text-center">
+                    <div class="img-dtls position-relative">
+                        <img class="img-fluid" src="img/img/product/product-8.jpg" alt="image">
+                        <div class="icons position-absolute">
+                            <i class="fa fa-heart p-2 rounded-circle" style="background-color: #fff;" aria-hidden="true"></i>
+                            <i class="fa fa-repeat p-2 rounded-circle" style="background-color: #fff;" aria-hidden="true"></i>
+                            <i class="fa-solid fa-cart-shopping p-2 rounded-circle" style="background-color: #fff;"></i>
+                        </div>
+                    </div>
+                    <p class="m-0">Crap Pool Meat</p>
+                    <h5 class="fw-bold">$30.00</h5>
+                </div>
+            </div>
+            <div class="col">
+                <div class="products-dtls text-center">
+                    <div class="img-dtls position-relative">
+                        <img class="img-fluid" src="img/img/product/product-1.jpg" alt="image">
+                        <div class="icons position-absolute">
+                            <i class="fa fa-heart p-2 rounded-circle" style="background-color: #fff;" aria-hidden="true"></i>
+                            <i class="fa fa-repeat p-2 rounded-circle" style="background-color: #fff;" aria-hidden="true"></i>
+                            <i class="fa-solid fa-cart-shopping p-2 rounded-circle" style="background-color: #fff;"></i>
+                        </div>
+                    </div>
+                    <p class="m-0">Crap Pool Meat</p>
+                    <h5 class="fw-bold">$30.00</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="billboard-section mt-5">
+    <div class="container">
+        <div class="row g-5 row-cols-sm-2">
+            <div class="col-12">
+                <img class="img-fluid" src="img/img/banner/banner-1.jpg" alt="image">
+            </div>
+            <div class="col-12">
+                <img class="img-fluid" src="img/img/banner/banner-2.jpg" alt="image">
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="packages-section mt-5">
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+            <div class="col s-show">
+                <div class="package-title d-flex justify-content-between">
+                    <h3 class="fw-bold">Latest Products</h3>
+                    <div class="package-icon">
+                        <button data-bs-target="#slider1" data-bs-slide="next">
+                            <i class="fa fa-arrow-left p-2 border" aria-hidden="true" style="background-color: #ebe7e7;"></i>
+                        </button>
+                        <button data-bs-target="#slider1" data-bs-slide="prev">
+                            <i class="fa fa-arrow-right p-2 border" aria-hidden="true" style="background-color: #ebe7e7;"></i>
+                        </button>
+                        
+                       
+                    </div>
+                </div>
+                <div class="carousel slide" id="slider1">
+                    <div class="carosuel-inner">
+                        <div class="carousel-item">
+                            <div class="package-dtls d-flex justify-content-xl-around gap-5 mx-5 mx-sm-0 mt-5">
+                                <img src="img/img/latest-product/lp-1.jpg" alt="image">
+                                <div>
+                                    <p>Fresh Vegitables</p>
+                                    <h4>$30.00</h4>
+                                </div>
+                            </div>
+                            <div class="package-dtls d-flex justify-content-xl-around mx-5 mx-sm-0 gap-5">
+                                <img src="img/img/latest-product/lp-2.jpg" alt="image">
+                                <div>
+                                    <p>Fresh Vegitables</p>
+                                    <h4>$30.00</h4>
+                                </div>
+                            </div>
+                            <div class="package-dtls d-flex justify-content-xl-around mx-5 mx-sm-0 gap-5">
+                                <img src="img/img/latest-product/lp-3.jpg" alt="image">
+                                <div>
+                                    <p>Fresh Vegitables</p>
+                                    <h4>$30.00</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="package-dtls d-flex justify-content-xl-around gap-5 mx-5 mx-sm-0 mt-5">
+                                <img src="img/img/latest-product/lp-1.jpg" alt="image">
+                                <div>
+                                    <p>Fresh Vegitables</p>
+                                    <h4>$30.00</h4>
+                                </div>
+                            </div>
+                            <div class="package-dtls d-flex justify-content-xl-around mx-5 mx-sm-0 gap-5">
+                                <img src="img/img/latest-product/lp-2.jpg" alt="image">
+                                <div>
+                                    <p>Fresh Vegitables</p>
+                                    <h4>$30.00</h4>
+                                </div>
+                            </div>
+                            <div class="package-dtls d-flex justify-content-xl-around mx-5 mx-sm-0 gap-5">
+                                <img src="img/img/latest-product/lp-3.jpg" alt="image">
+                                <div>
+                                    <p>Fresh Vegitables</p>
+                                    <h4>$30.00</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="package-dtls d-flex justify-content-xl-around gap-5 mx-5 mx-sm-0 mt-5">
+                                <img src="img/img/latest-product/lp-1.jpg" alt="image">
+                                <div>
+                                    <p>Fresh Vegitables</p>
+                                    <h4>$30.00</h4>
+                                </div>
+                            </div>
+                            <div class="package-dtls d-flex justify-content-xl-around mx-5 mx-sm-0 gap-5">
+                                <img src="img/img/latest-product/lp-2.jpg" alt="image">
+                                <div>
+                                    <p>Fresh Vegitables</p>
+                                    <h4>$30.00</h4>
+                                </div>
+                            </div>
+                            <div class="package-dtls d-flex justify-content-xl-around mx-5 mx-sm-0 gap-5">
+                                <img src="img/img/latest-product/lp-3.jpg" alt="image">
+                                <div>
+                                    <p>Fresh Vegitables</p>
+                                    <h4>$30.00</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+            <div class="col s-show">
+                <div class="package-title d-flex justify-content-between">
+                    <h3 class="fw-bold">Latest Products</h3>
+                    <div class="package-icon">
+                        <button data-bs-target="#slider2" data-bs-slide="next">
+                            <i class="fa fa-arrow-left p-2 border" aria-hidden="true" style="background-color: #ebe7e7;"></i>
+                        </button>
+                        <button data-bs-target="#slider2" data-bs-slide="prev">
+                            <i class="fa fa-arrow-right p-2 border" aria-hidden="true" style="background-color: #ebe7e7;"></i>
+                        </button>
+                        
+                       
+                    </div>
+                </div>
+                <div class="carousel slide" id="slider2">
+                    <div class="carosuel-inner">
+                        <div class="carousel-item">
+                            <div class="package-dtls d-flex justify-content-xl-around gap-5 mx-5 mx-sm-0 mt-5">
+                                <img src="img/img/latest-product/lp-1.jpg" alt="image">
+                                <div>
+                                    <p>Fresh Vegitables</p>
+                                    <h4>$30.00</h4>
+                                </div>
+                            </div>
+                            <div class="package-dtls d-flex justify-content-xl-around mx-5 mx-sm-0 gap-5">
+                                <img src="img/img/latest-product/lp-2.jpg" alt="image">
+                                <div>
+                                    <p>Fresh Vegitables</p>
+                                    <h4>$30.00</h4>
+                                </div>
+                            </div>
+                            <div class="package-dtls d-flex justify-content-xl-around mx-5 mx-sm-0 gap-5">
+                                <img src="img/img/latest-product/lp-3.jpg" alt="image">
+                                <div>
+                                    <p>Fresh Vegitables</p>
+                                    <h4>$30.00</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="package-dtls d-flex justify-content-xl-around gap-5 mx-5 mx-sm-0 mt-5">
+                                <img src="img/img/latest-product/lp-1.jpg" alt="image">
+                                <div>
+                                    <p>Fresh Vegitables</p>
+                                    <h4>$30.00</h4>
+                                </div>
+                            </div>
+                            <div class="package-dtls d-flex justify-content-xl-around mx-5 mx-sm-0 gap-5">
+                                <img src="img/img/latest-product/lp-2.jpg" alt="image">
+                                <div>
+                                    <p>Fresh Vegitables</p>
+                                    <h4>$30.00</h4>
+                                </div>
+                            </div>
+                            <div class="package-dtls d-flex justify-content-xl-around mx-5 mx-sm-0 gap-5">
+                                <img src="img/img/latest-product/lp-3.jpg" alt="image">
+                                <div>
+                                    <p>Fresh Vegitables</p>
+                                    <h4>$30.00</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="package-dtls d-flex justify-content-xl-around gap-5 mx-5 mx-sm-0 mt-5">
+                                <img src="img/img/latest-product/lp-1.jpg" alt="image">
+                                <div>
+                                    <p>Fresh Vegitables</p>
+                                    <h4>$30.00</h4>
+                                </div>
+                            </div>
+                            <div class="package-dtls d-flex justify-content-xl-around mx-5 mx-sm-0 gap-5">
+                                <img src="img/img/latest-product/lp-2.jpg" alt="image">
+                                <div>
+                                    <p>Fresh Vegitables</p>
+                                    <h4>$30.00</h4>
+                                </div>
+                            </div>
+                            <div class="package-dtls d-flex justify-content-xl-around mx-5 mx-sm-0 gap-5">
+                                <img src="img/img/latest-product/lp-3.jpg" alt="image">
+                                <div>
+                                    <p>Fresh Vegitables</p>
+                                    <h4>$30.00</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+            <div class="col s-show">
+                <div class="package-title d-flex justify-content-between">
+                    <h3 class="fw-bold">Latest Products</h3>
+                    <div class="package-icon">
+                        <button data-bs-target="#slider3" data-bs-slide="next">
+                            <i class="fa fa-arrow-left p-2 border" aria-hidden="true" style="background-color: #ebe7e7;"></i>
+                        </button>
+                        <button data-bs-target="#slider3" data-bs-slide="prev">
+                            <i class="fa fa-arrow-right p-2 border" aria-hidden="true" style="background-color: #ebe7e7;"></i>
+                        </button>
+                        
+                       
+                    </div>
+                </div>
+                <div class="carousel slide" id="slider3">
+                    <div class="carosuel-inner">
+                        <div class="carousel-item active">
+                            <div class="package-dtls d-flex justify-content-xl-around gap-5 mx-5 mx-sm-0 mt-5">
+                                <img src="img/img/latest-product/lp-1.jpg" alt="image">
+                                <div>
+                                    <p>Fresh Vegitables</p>
+                                    <h4>$30.00</h4>
+                                </div>
+                            </div>
+                            <div class="package-dtls d-flex justify-content-xl-around mx-5 mx-sm-0 gap-5">
+                                <img src="img/img/latest-product/lp-2.jpg" alt="image">
+                                <div>
+                                    <p>Fresh Vegitables</p>
+                                    <h4>$30.00</h4>
+                                </div>
+                            </div>
+                            <div class="package-dtls d-flex justify-content-xl-around mx-5 mx-sm-0 gap-5">
+                                <img src="img/img/latest-product/lp-3.jpg" alt="image">
+                                <div>
+                                    <p>Fresh Vegitables</p>
+                                    <h4>$30.00</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="package-dtls d-flex justify-content-xl-around gap-5 mx-5 mx-sm-0 mt-5">
+                                <img src="img/img/latest-product/lp-1.jpg" alt="image">
+                                <div>
+                                    <p>Fresh Vegitables</p>
+                                    <h4>$30.00</h4>
+                                </div>
+                            </div>
+                            <div class="package-dtls d-flex justify-content-xl-around mx-5 mx-sm-0 gap-5">
+                                <img src="img/img/latest-product/lp-2.jpg" alt="image">
+                                <div>
+                                    <p>Fresh Vegitables</p>
+                                    <h4>$30.00</h4>
+                                </div>
+                            </div>
+                            <div class="package-dtls d-flex justify-content-xl-around mx-5 mx-sm-0 gap-5">
+                                <img src="img/img/latest-product/lp-3.jpg" alt="image">
+                                <div>
+                                    <p>Fresh Vegitables</p>
+                                    <h4>$30.00</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="package-dtls d-flex justify-content-xl-around gap-5 mx-5 mx-sm-0 mt-5">
+                                <img src="img/img/latest-product/lp-1.jpg" alt="image">
+                                <div>
+                                    <p>Fresh Vegitables</p>
+                                    <h4>$30.00</h4>
+                                </div>
+                            </div>
+                            <div class="package-dtls d-flex justify-content-xl-around mx-5 mx-sm-0 gap-5">
+                                <img src="img/img/latest-product/lp-2.jpg" alt="image">
+                                <div>
+                                    <p>Fresh Vegitables</p>
+                                    <h4>$30.00</h4>
+                                </div>
+                            </div>
+                            <div class="package-dtls d-flex justify-content-xl-around mx-5 mx-sm-0 gap-5">
+                                <img src="img/img/latest-product/lp-3.jpg" alt="image">
+                                <div>
+                                    <p>Fresh Vegitables</p>
+                                    <h4>$30.00</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        
+            
+        </div>
+    </div>
+  </section>
+
+  <section class="blogs mt-5">
+    <h1 class="text-center fp-title">FROM THE BLOG</h1>
+    <div class="container mt-5">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 text-center">
+            <div class="col">
+                <img class="img-fluid" src="img/img/blog/blog-1.jpg" alt="image">
+                <div class="blog-dtls">
+                    <div class="blog-icons">
+                        <i class="fa fa-calendar" aria-hidden="true"></i><span class="pe-5">May 4,2019</span>
+                        <i class="fa-regular fa-comment"></i><span>5 Commends</span>
+                    </div>
+                    <h5 class="fw-bold mt-3">Cooking tips make cooking simple</h5>
+                    <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+                </div>
+            </div>
+            <div class="col">
+                <img class="img-fluid" src="img/img/blog/blog-2.jpg" alt="image">
+                <div class="blog-dtls">
+                    <div class="blog-icons">
+                        <i class="fa fa-calendar" aria-hidden="true"></i><span class="pe-5">May 4,2019</span>
+                        <i class="fa-regular fa-comment"></i><span>5 Commends</span>
+                    </div>
+                    <h5 class="fw-bold mt-3">Cooking tips make cooking simple</h5>
+                    <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+                </div>
+            </div>
+            <div class="col">
+                <img class="img-fluid" src="img/img/blog/blog-3.jpg" alt="image">
+                <div class="blog-dtls">
+                    <div class="blog-icons">
+                        <i class="fa fa-calendar" aria-hidden="true"></i><span class="pe-5">May 4,2019</span>
+                        <i class="fa-regular fa-comment"></i><span>5 Commends</span>
+                    </div>
+                    <h5 class="fw-bold mt-3">Cooking tips make cooking simple</h5>
+                    <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <footer class="mt-5 bg-light pt-5 px-3 px-sm-5">
+    <div class="row row-cols-1 row-cols-md-3">
+        <div class="col">
+            <img src="img/img/logo.png" alt="image">
+            <div class="address mt-3">
+                <p>Address: 60-49 Road 11378 New York <br>
+                    Phone: +65 11.188.888 <br>
+                    Email: hello@colorlib.com</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="footer-links d-flex">
+                <ul class="p-0">
+                    <li><p class="m-0 fw-bold">Useful Links</p></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">About Our Shop</a></li>
+                    <li><a href="#">Secure Shopping</a></li>
+                    <li><a href="#">Delivery infomation</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Our Sitemap</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Who We Are</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Innovation</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col">
+            <h6>Join Our Newsletter Now</h6>
+            <p>Get E-mail updates about our latest shop and special offers.</p>
+            <div class="col-12 col-sm-6 col-lg-6 d-flex w-75">
+                <input class="w-100 py-2 border" type="search" placeholder="What do you need?"> 
+                <button class="px-3" style="background-color: #7fad39; color: #fff;border: 0; padding: 0.6rem;" >Submit</button>
+            </div>
+            <div class="social-media mt-3">
+                <a href=""><i class="fa-brands fa-facebook-f pe-3" style="color: #000000;"></i></a>
+                <a href=""><i class="fa-brands fa-twitter pe-3" style="color: #000000;"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in pe-3" style="color: #000000;"></i></a>
+                <a href=""><i class="fa-brands fa-pinterest-p" style="color: #000000;"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="row row-cols-1 mt-4">
+        <div class="col text-center text-sm-start">
+            <p>Copyright &copy 2024 All rights reserved | This template is made by <i class="fa fa-heart" aria-hidden="true"></i><a class="text-decoration-none" href="#">AniBe</a></p>
+        </div>
+        <div class="col text-center text-sm-end">
+            <img class="" src="img/img/payment-item.png" alt="image">
+        </div>
+    </div>
+  </footer>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+
